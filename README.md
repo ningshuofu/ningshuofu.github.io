@@ -1,8 +1,3 @@
----
-layout: page
-title: 关于
-permalink: /about
----
 ## 声明
 
 本blog基于 [wu-kan/wu-kan.github.io](https://github.com/wu-kan/wu-kan.github.io/fork)的Fork
