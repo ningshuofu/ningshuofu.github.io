@@ -186,7 +186,7 @@ sidebar:
 #    href: /atom.xml
 #    class: 'fas fa-rss fa-fw'
   - title: nsfnsf@foxmail.com # email
-    href: mailto:wu.kan@foxmail.com
+    href: mailto:nsfnsf@foxmail.com # email
     class: 'fas fa-envelope fa-fw'
   - title: github
     href: //github.com/nsf-github
