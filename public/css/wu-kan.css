@@ -8,16 +8,16 @@
     max-width: 48rem;
   }
 }
-/* body {
+body {
   background: url(//cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/public/image/background/15.jpg);
-  // background: rgb(238 238 224) linear-gradient(-90deg, rgb(238 238 224), rgb(205 205 193));
+  /* background: rgb(238 238 224) linear-gradient(-90deg, rgb(238 238 224), rgb(205 205 193));*/
   background-size: 50px 50px;
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
-} */
+} 
 
-body {
+/* body {
   background-color:black;
 	background-image:
 	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -27,7 +27,7 @@ body {
 	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
-}
+}*/
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
