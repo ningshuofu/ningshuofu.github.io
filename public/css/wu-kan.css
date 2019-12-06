@@ -11,7 +11,7 @@
 body {
   background: url(//cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/public/image/background/15.jpg);
   /* background: rgb(238 238 224) linear-gradient(-90deg, rgb(238 238 224), rgb(205 205 193)); */
-  background-size: 193px 175px;
+  background-size: 50px 50px;
   background-repeat: repeat;
   background-attachment: fixed;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
