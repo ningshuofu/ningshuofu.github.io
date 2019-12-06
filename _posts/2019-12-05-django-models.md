@@ -1,6 +1,7 @@
 ---
 title: django-models
 categories: django
+tags: django
 date: 2019-12-05 11:03:56
 ---
 # django-models
