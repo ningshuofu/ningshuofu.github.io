@@ -255,9 +255,11 @@ sidebar:
 
 index:
   showtag:
+    - python
+    - django
+    - linux
     - 杂谈
     - 兴趣
-    - java
 
 post:
   meta:
