@@ -1,8 +1,3 @@
-html {
-    height: 100%;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
-    overflow: hidden;
-}
 #stars {
     width: 1px;
     height: 1px;
@@ -51,25 +46,6 @@ html {
     background: transparent;
     box-shadow: 765px 271px #fff, 1412px 1921px #fff, 1809px 339px #fff, 1582px 36px #fff, 462px 1589px #fff, 1025px 1178px #fff, 826px 1714px #fff, 1756px 316px #fff, 214px 1719px #fff, 446px 812px #fff, 1094px 908px #fff, 1944px 2px #fff, 1139px 1913px #fff, 499px 2px #fff, 112px 1939px #fff, 766px 513px #fff, 1324px 70px #fff, 1850px 650px #fff, 392px 320px #fff, 834px 1855px #fff, 165px 221px #fff, 81px 1914px #fff, 1911px 237px #fff, 1813px 1021px #fff, 15px 1572px #fff, 1895px 1844px #fff, 44px 538px #fff, 1226px 1436px #fff, 667px 1295px #fff, 1906px 1610px #fff, 593px 221px #fff, 968px 1407px #fff, 992px 1538px #fff, 726px 248px #fff, 1273px 179px #fff, 138px 1186px #fff, 395px 785px #fff, 1644px 780px #fff, 31px 1348px #fff, 1942px 87px #fff, 718px 1015px #fff, 1323px 107px #fff, 1436px 421px #fff, 75px 1863px #fff, 1269px 557px #fff, 1162px 1036px #fff, 257px 669px #fff, 827px 1098px #fff, 138px 1908px #fff, 439px 527px #fff, 76px 295px #fff, 1266px 248px #fff, 1940px 718px #fff, 1214px 265px #fff, 37px 1486px #fff, 1937px 290px #fff, 1129px 785px #fff, 1261px 1650px #fff, 144px 219px #fff, 1341px 606px #fff, 1317px 872px #fff, 1421px 693px #fff, 496px 1803px #fff, 1055px 1732px #fff, 1448px 302px #fff, 774px 495px #fff, 266px 1037px #fff, 941px 792px #fff, 779px 1034px #fff, 1333px 1194px #fff, 1546px 188px #fff, 947px 1906px #fff, 1769px 1595px #fff, 1667px 724px #fff, 699px 1979px #fff, 194px 213px #fff, 1984px 1738px #fff, 466px 1754px #fff, 1998px 1908px #fff, 975px 1413px #fff, 1505px 752px #fff, 1341px 932px #fff, 1260px 812px #fff, 1591px 50px #fff, 1655px 1730px #fff, 1955px 1340px #fff, 859px 1742px #fff, 1608px 1931px #fff, 1431px 1227px #fff, 1553px 222px #fff, 684px 1866px #fff, 371px 59px #fff, 1885px 869px #fff, 1887px 1795px #fff, 1032px 1431px #fff, 1085px 1840px #fff, 817px 1343px #fff, 1260px 1135px #fff, 124px 1566px #fff, 1975px 1980px #fff;
 }
-#title {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    color: #fff;
-    text-align: center;
-    font-family: "lato", sans-serif;
-    font-weight: 300;
-    font-size: 50px;
-    letter-spacing: 10px;
-    margin-top: -60px;
-    padding-left: 10px;
-}
-#title span {
-    background: -webkit-linear-gradient(white, #38495a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 @keyframes animStar {
     from {
         transform: translateY(0px);
@@ -96,6 +72,7 @@ body {
   background-size: 100px 100px;
   background-repeat: repeat;
   background-attachment: fixed;*/
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 } 
 
