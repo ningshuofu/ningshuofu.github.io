@@ -9,10 +9,10 @@
   }
 }
 body {
-  background: url(//cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/public/image/background/3.jpg); */
-  /* background: rgb(238 238 224) linear-gradient(-90deg, rgb(238 238 224), rgb(205 205 193));
-  /* background-size: 100%;*/
-  /* background-repeat: no-repeat;*/
+  background: url(//cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/public/image/background/3.jpg);
+  /* background: rgb(238 238 224) linear-gradient(-90deg, rgb(238 238 224), rgb(205 205 193)); */
+  background-size: 100%;
+  background-repeat: repeat;
   background-attachment: fixed;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 }
