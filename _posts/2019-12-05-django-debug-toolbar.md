@@ -1,6 +1,6 @@
 ---
-title: 工具
-categories: blog相关
+title: django-debug-toolbar
+categories: django
 date: 2019-12-05 11:03:56
 ---
 ## django-debug-toolbar

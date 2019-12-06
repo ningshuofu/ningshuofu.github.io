@@ -1,9 +1,9 @@
 ---
-title: 工具
-categories: blog相关
+title: django-models
+categories: django
 date: 2019-12-05 11:03:56
 ---
-# models
+# django-models
 
 ## 1.objects
 > 初始化自定义model时会自动创建这个对象，通过此对象才能进行数据库操作，ModelBase的构造函数__new__中调用new_class._prepare()来进行初始化，代码如下：

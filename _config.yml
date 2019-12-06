@@ -256,8 +256,8 @@ sidebar:
 index:
   showtag:
     - 杂谈
-    - 文档
     - 兴趣
+    - java
 
 post:
   meta:
