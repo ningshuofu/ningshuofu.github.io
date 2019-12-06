@@ -67,13 +67,13 @@ head: # 删改前确定知道自己在做什么
   - key: rel
     value: apple-touch-icon-precomposed
   - key: href
-    value: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/avatar.jpg
+    value: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/avatar.jpg
 - tag: link # 小图标，同上
   var:
   - key: rel
     value: 'shortcut icon'
   - key: href
-    value: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/avatar_icon.jpg
+    value: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/avatar_icon.jpg
 - tag: link # 下面是博客的css，有些插件的css是单独在插件里引用的，假如需要自己的css可以仿照去加在后面。无脑cdn加速了。
   var:
   - key: rel
@@ -178,7 +178,7 @@ script: # 需要在正文前调用的脚本或者插件的autoloader
 sidebar:
   avatar: # 侧边栏显示的头像
     enable: true
-    img: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/avatar.jpg # 头像的地址
+    img: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/avatar.jpg # 头像的地址
     info: <br/>搬砖中<br/>喜欢艺术<br/>折纸<br/>乒乓球 # 头像背后的信息
   description: '<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=100% height=52 src="//music.163.com/outchain/player?type=0&id=3106260219&auto=0&height=32"></iframe>'
   social:
@@ -282,13 +282,13 @@ post:
     text: 如果这篇博客帮助到你，可以请我喝一杯咖啡~
     img: # 万一真的有人打赏呢~
     - id: wechat
-      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/wechatpay.jpg
+      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/wechatpay.jpg
     - id: wechatappreciate
-      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/wechatappreciate.jpg
+      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/wechatappreciate.jpg
     - id: qq
-      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/qqpay.jpg
+      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/qqpay.jpg
     - id: alipay
-      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.0/public/image/alipay.jpg
+      src: //cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@v1.0.1/public/image/alipay.jpg
 
 valine:
   enable: true
