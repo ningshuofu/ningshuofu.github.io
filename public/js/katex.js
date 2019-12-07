@@ -1,15 +1,4 @@
 (function () {
-	
-  L2Dwidget.init({
-         "display": {
-             "position": "right", //看板娘的表现位置
-             "width": 300,  //小萝莉的宽度
-             "height": 600, //小萝莉的高度
-             "hOffset": 0,
-             "vOffset": -20
-         }
-     });
-	
   function loadStyle(url) {
     var link = document.createElement('link');
     link.rel = 'stylesheet';
