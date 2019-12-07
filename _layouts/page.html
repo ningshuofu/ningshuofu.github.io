@@ -1,4 +1,7 @@
 <!DOCTYPE html height=100% overflow=hidden>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
 <head>
   <title>
     {% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}
@@ -9,9 +12,6 @@
 </head>
 
 <body
-  <div id='stars'></div>
-  <div id='stars2'></div>
-  <div id='stars3'></div>
   class="{{ site.body.theme-base }}{% if site.body.layout-reverse %} layout-reverse{% endif %}{% if site.body.sidebar-overlay %} sidebar-overlay{% endif %}">
   {% for node in site.script %}
   <script {% for var in node.var %} {{ var.key }}="{{ var.value }}" {% endfor %}>
