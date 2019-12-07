@@ -7,7 +7,7 @@
              "height": 600, //小萝莉的高度
              "hOffset": 0,
              "vOffset": -20
-         },
+         }
      });
 	
   function loadStyle(url) {
