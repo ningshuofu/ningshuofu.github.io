@@ -73,6 +73,7 @@ body {
   background-attachment: fixed;*/
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
+  overflow:none !important
 } 
 
 /* body {
