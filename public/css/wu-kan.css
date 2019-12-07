@@ -76,7 +76,7 @@ body {
 } 
 
 body, html {
-  overflow:none !important
+  overflow-x:none !important
 } 
 /* body {
   background-color:black;
