@@ -3,8 +3,8 @@
   L2Dwidget.init({
          "display": {
              "position": "right", //看板娘的表现位置
-             "width": 150,  //小萝莉的宽度
-             "height": 300, //小萝莉的高度
+             "width": 300,  //小萝莉的宽度
+             "height": 600, //小萝莉的高度
              "hOffset": 0,
              "vOffset": -20
          },
