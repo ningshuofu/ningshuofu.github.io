@@ -4,7 +4,7 @@ body {
   background-size: 100px 100px;
   background-repeat: repeat;
   background-attachment: fixed;*/
-  background: radial-gradient(220% 105% at top center, #505050 10%, #787878 40%, #808080 65%, #BABABA);
+  background: #000;
   font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei Light, monospace;
 } 
 
