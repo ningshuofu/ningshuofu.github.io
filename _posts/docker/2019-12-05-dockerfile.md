@@ -1,7 +1,7 @@
 ---
 title: Dockerfile
 categories: docker
-tags: 杂谈
+tags: docker
 date: 2019-12-05 11:03:56
 ---
 # 1.Dockerfile使用文档
