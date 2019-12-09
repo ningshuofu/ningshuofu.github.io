@@ -9,7 +9,12 @@ body {
 } 
 
 #waifu #live2d {
-	opacity: 0.3!important
+	opacity: 0.3!important;
+}
+
+#waifu {
+	left: initial!important;
+	right: 0;
 }
 
 /* body {
