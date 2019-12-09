@@ -113,7 +113,7 @@ head: # 删改前确定知道自己在做什么
 
 body:
   theme-base: theme-base-0d # 可选的值08~0f
-  layout-reverse: true # 开启后sidebar在右边，反之左边
+  layout-reverse: false # 开启后sidebar在右边，反之左边
   sidebar-overlay: true # 开启后正文不随sidebar移动而移动
 
 script: # 需要在正文前调用的脚本或者插件的autoloader
@@ -212,6 +212,8 @@ sidebar:
     href: /about
   - title: '<i class="fas fa-comments fa-fw"></i> 留言'
     href: /comments
+  - title: '<i class="fas fa-th fa-fw"></i> 分类'
+    href: /categories
   - title: '<i class="fas fa-tags fa-fw"></i> 标签'
     href: /tags
   - title: '<i class="fas fa-archive fa-fw"></i> 归档'
@@ -260,8 +262,6 @@ index:
     - django
     - linux
     - 杂谈
-    - 兴趣
-    - 个人介绍
 
 post:
   meta:

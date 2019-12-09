@@ -1,6 +1,6 @@
 ---
 title: django-debug-toolbar
-categories: django
+categories: python
 tags: django
 date: 2019-12-05 11:03:56
 ---

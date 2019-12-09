@@ -1,6 +1,6 @@
 ---
 title: Dockerfile
-categories: docker
+categories: 运维
 tags: docker
 date: 2019-12-05 11:03:56
 ---
