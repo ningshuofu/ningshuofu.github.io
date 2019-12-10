@@ -5,7 +5,9 @@ categories: python
 tags: django python 框架
 author: nsf
 ---
-[TOC]
+
+* content
+{:toc}
 
 # django-models
 
@@ -16,6 +18,9 @@ manager = Manager()
 manager.auto_created = True
 cls.add_to_class('objects', manager)
 ```
+
+
+
 
 > 从上面可以看出来objects就是一个Manager对象，代码如下：
 ```

@@ -5,12 +5,17 @@ categories: python
 tags: django python 框架 工具
 author: nsf
 ---
-[TOC]
+
+* content
+{:toc}
 
 ## django-debug-toolbar
 
 一个非常方便的工具，它可以深入了解您的代码正在做什么以及花费了多少时间。特别是它可以显示您的页面生成的所有SQL查询，以及每个查询所用的时间。
 第三方面板也可用于工具栏，可以（例如）报告缓存性能和模板呈现时间。
+
+
+
 
 ### 安装步骤
 
