@@ -1,9 +1,12 @@
 ---
+layout: post
 title: Dockerfile
 categories: 运维
 tags: docker
-date: 2019-12-05 11:03:56
+author: nsf
 ---
+[TOC]
+
 # 1.Dockerfile使用文档
 
 **1. MAINTAINER**：设置该镜像的作者。语法如下：
