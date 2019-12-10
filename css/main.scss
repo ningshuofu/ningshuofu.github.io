@@ -55,6 +55,9 @@
 	left: initial!important;
 	right: 0;
 }
+.element::-webkit-scrollbar { width: 0 !important }
+.element { overflow: -moz-scrollbars-none; }
+.element { -ms-overflow-style: none; }
 // 两个人在列车上相遇
 // 一段旅程充满了诗意
 // 你突然说你要下车
