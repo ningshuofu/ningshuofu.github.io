@@ -13,21 +13,6 @@ url: "https://nsf-github.github.io/tdxlj.github.io/" # the base hostname & proto
 
 permalink: /:year/:month/:day/:title/
 
-script: # 需要在正文前调用的脚本或者插件的autoloader
-- var:
-  - key: color
-    value: "119,119,119" # 线段颜色，RGB三色
-  - key: pointColor
-    value: "51,51,51" # 端点颜色，RGB三色
-  - key: opacity
-    value: "1" # 透明度
-  - key: count
-    value: "100" # 粒子数量
-  - key: zIndex
-    value: "-1"
-  - key: src
-    value: //cdn.jsdelivr.net/npm/canvas-nest.js/dist/canvas-nest.js
-
 # other links
 twitter_username: 
 facebook_username: 
@@ -37,6 +22,7 @@ weibo_username:
 zhihu_username: 
 linkedIn_username: 
 dribbble_username:
+leetcode: https://leetcode-cn.com/u/lan-ren-2/
 
 description_footer: 站在窗台上冲
 
