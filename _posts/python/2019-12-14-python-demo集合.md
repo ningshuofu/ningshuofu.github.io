@@ -1,6 +1,6 @@
 ---
 layout: post
-title: python
+title: python-demo集合
 categories: python
 tags: python
 author: nsf
