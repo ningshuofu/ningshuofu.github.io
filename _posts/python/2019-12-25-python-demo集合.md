@@ -8,7 +8,7 @@ author: nsf
 
 * content
 {:toc}
-![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/python/pro.gif)
+![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2019-12-25-python-demo集合.gif)
 
 
 
