@@ -106,8 +106,8 @@ demo("1.jpg", "output.jpg")
 
 原图和结果如下图：
 
-![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-01-27-python-demo集合1.jpg)
+![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-01-27-python-demo31.jpg)
 
-![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-01-27-python-demo集合2.jpg)
+![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-01-27-python-demo32.jpg)
 
 除此之外，学习了Windows下字体方面的知识，字体位置为’C:\Windows\Fonts‘，代码中如果要替换字体，可以点击具体字体查看详情，找到对应的字体文件进行替换即可。
