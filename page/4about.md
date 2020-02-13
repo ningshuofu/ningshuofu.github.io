@@ -12,7 +12,7 @@ type: page
 ## 关于我
 
 <iframe src="https://githubbadge.appspot.com/nsf-github?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-###  完整简历下载：[点我](https://github.com/nsf-github/tdxlj.github.io/tree/master/_posts/%E6%9D%82%E8%B0%88](https://github.com/nsf-github/tdxlj.github.io/tree/master/_posts/杂谈/宁硕夫个人简历.doc)
+###  完整简历下载：[点我](https://github.com/nsf-github/tdxlj.github.io/raw/master/_posts/%E6%9D%82%E8%B0%88/%E5%AE%81%E7%A1%95%E5%A4%AB%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.doc)
 
 ### **个人资料**
 
