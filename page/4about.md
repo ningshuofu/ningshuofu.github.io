@@ -16,7 +16,7 @@ type: page
 
 * GitHub：[nsf-github](https://github.com/nsf-github)
 * email：nsfnsf@foxmail.com
-* leetcode: https://leetcode-cn.com/u/nsf/
+* leetcode: [nsf-leecode](https://leetcode-cn.com/u/nsf/) 
 
 ## 友情链接
 
