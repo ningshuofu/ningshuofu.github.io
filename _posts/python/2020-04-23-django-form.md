@@ -23,12 +23,12 @@ author: nsf
     一般验证代码类似form = form_class(form),form_class为自定义的form
 3.forms下的字段都继承Field，所以写自定义的Field应该参考源码，比如forms.CharField
 4.验证步骤如下：
-调用form.is_valid()
-调用self.errors
-调用self.full_clean()
-调用self._clean_fields()、self._clean_form()、self._post_clean()
-其中_clean_fields()会遍历自定义form下所有field，然后调用field.clean(value, initial)去做field字段验证
-其中field.clean()调用value = self.to_python(value)、self.validate(value)、self.run_validators(value)来做验证，to_python一般做格式转换、validate做具体逻辑验证、run_validators依次调用self.validators中的由开发者自定义的validator（不推荐重载）
+    调用form.is_valid()
+    调用self.errors
+    调用self.full_clean()
+    调用self._clean_fields()、self._clean_form()、self._post_clean()
+    其中_clean_fields()会遍历自定义form下所有field，然后调用field.clean(value, initial)去做field字段验证
+    其中field.clean()调用value = self.to_python(value)、self.validate(value)、self.run_validators(value)来做验证，to_python一般做格式转换、validate做具体逻辑验证、run_validators依次调用self.validators中的由开发者自定义的validator（不推荐重载）
 5.关键源码如下
 form.is_valid()
 
