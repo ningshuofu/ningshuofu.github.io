@@ -2,7 +2,7 @@
 layout: post
 title: flask_restplus
 categories: python
-tags: django python 框架
+tags: flask python 框架
 author: nsf
 ---
 
