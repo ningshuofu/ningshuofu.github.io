@@ -8,6 +8,7 @@ author: nsf
 
 * content
 {:toc}
+![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-08-06-mnist_flask.gif)
 
 
 
