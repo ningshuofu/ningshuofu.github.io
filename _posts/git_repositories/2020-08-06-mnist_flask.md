@@ -9,6 +9,8 @@ author: nsf
 * content
 {:toc}
 [mnist网页端](https://github.com/nsf-github/mnist_flask)
+
+
 ![](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/image/2020-08-06-mnist_flask.gif)
 
 
