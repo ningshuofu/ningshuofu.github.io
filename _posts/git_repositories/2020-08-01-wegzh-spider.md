@@ -8,7 +8,7 @@ author: nsf
 
 * content
 {:toc}
-通过前端简单配置，自动批量获取微信公众号指定数量文章
+[通过前端简单配置，自动批量获取微信公众号指定数量文章](https://github.com/nsf-github/wegzh-spider)
 
 
 
