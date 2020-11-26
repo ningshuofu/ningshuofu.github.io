@@ -76,3 +76,20 @@ while datas.has_more_pages:
     print(len(datas.current_rows))
 ```
 
+## 1.5 分页
+
+```
+from cassandra.query import SimpleStatement
+from cassandra.cluster import Cluster
+from cassandra.auth import PlainTextAuthProvider
+
+auth_provider = PlainTextAuthProvider(username='cassandra', password='cassandra')
+db = Cluster(["x.x.x.x"], auth_provider=auth_provider, port='9042')
+db_name = 'xxx'
+query = "SELECT * FROM xxx"
+statement = SimpleStatement(query, fetch_size=10)
+a = db.connect(db_name).execute(statement)
+for user_row in a.fetch_next_page():
+    print(user_row)
+```
+
