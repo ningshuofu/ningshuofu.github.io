@@ -69,6 +69,30 @@ data.txt内容：
 {"a": "1", "b": "2", "c": 200}
 ```
 
+接口(代码有所简化)：
+
+```
+# -*- coding: utf-8 -*-
+import time
+
+from flask_restplus import Resource
+
+from app.function_interface.user_manage import api
+from flask import jsonify
+
+parser = api.parser()
+
+
+@api.route('/user_manage/user/login')
+class UserLogin(Resource):
+    @api.expect(parser)
+    @api.response(200, description=DescriptionExample.USERLOGIN, model='object')
+    def post(self):
+        args = parser.parse_args()
+        time.sleep(0.2)
+        return jsonify({})
+```
+
 ## 线程
 
 run.py记得去掉最前面两行
