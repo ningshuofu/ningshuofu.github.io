@@ -2,7 +2,7 @@
 layout: page
 title: Game
 permalink: /game/
-icon: game
+icon: gift
 type: page
 ---
 
