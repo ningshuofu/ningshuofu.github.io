@@ -6,4 +6,4 @@ icon: gift
 type: page
 ---
 
-{% include Silk – Interactive Generative Art.html %}
+{% include comments.html %}
