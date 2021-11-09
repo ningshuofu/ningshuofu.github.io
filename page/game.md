@@ -6,8 +6,8 @@ icon: gift
 type: page
 ---
 
-
-
+<!DOCTYPE html>
+<html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
 	<!-- affiliate-data=myAffiliateData, app-argument=myURL -->
@@ -38,7 +38,7 @@ type: page
 	<script src="Silk%20%E2%80%93%20Interactive%20Generative%20Art_files/site.js"></script>
 
 	<title>Silk – Interactive Generative Art</title>
-
+</head>
 
 <body data-bind="css: { 'iphone': isIPhone, 'right-side-up': isRightSideUp, 'silk-active': silkActive, 'mouse-over-previewable-controls': mouseOverControls, 'mouse-down-on-slider': mouseDownOnSlider }" class="">
 	<!-- https://itunes.apple.com/us/app/id436590129?mt=8&ls=1 -->
@@ -333,4 +333,5 @@ type: page
 	<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66625145ns.gif" /></p></noscript>
 
 
-</body>
+</body></html>
+
