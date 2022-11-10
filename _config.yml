@@ -14,7 +14,7 @@ url: "https://nsf-github.github.io/tdxlj.github.io/" # the base hostname & proto
 permalink: /:year/:month/:day/:title/
 
 # other links
-twitter_username: '_posts/git_repositories/health-code-index/index.html'
+twitter_username: 
 facebook_username: 
 github_username:  nsf-github
 email: nsfnsf@foxmail.com
@@ -23,7 +23,7 @@ zhihu_username:
 linkedIn_username: 
 dribbble_username:
 leetcode_username: nsf
-game_url: '/game/index.html'
+game_url: '_posts/git_repositories/health-code-index/index.html'
 
 description_footer: 站在窗台上冲
 
