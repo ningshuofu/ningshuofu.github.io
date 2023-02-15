@@ -48,9 +48,12 @@
 @import "reset", "header", "post", "page", "syntax-highlighting", "index", "demo", "footer", "scrollbar", "backToTop";
 
 #waifu #live2d {
-	opacity: 0.3!important;
+	opacity: 0.6!important;
 }
-
+#live2d {
+    height: 200px;
+    width: 200px;
+}
 //#waifu {
 //	left: initial!important;
 //	right: 0;
