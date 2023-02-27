@@ -8,7 +8,7 @@ type: page
 
 * content
 {:toc}
-## [ChatGpt](https://cdn.jsdelivr.net/gh/nsf-github/tdxlj.github.io@master/_posts/python/index.html)
+## [ChatGpt](../_posts/python/index.html)
 
 ## Chrome 插件
 
