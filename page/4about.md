@@ -1,59 +1,317 @@
----
-layout: page
-title: About
-permalink: /about/
-icon: heart
-type: page
----
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 
-* content
-{:toc}
-
-## 关于我
-
-<iframe src="https://githubbadge.appspot.com/nsf-github?s=1" style="border: 0;height: 142px;width: 200px;overflow: hidden;" frameBorder="0"></iframe>
-###  完整简历下载：[点我](https://github.com/nsf-github/tdxlj.github.io/raw/master/_posts/%E6%9D%82%E8%B0%88/%E5%AE%81%E7%A1%95%E5%A4%AB%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86.doc)
-
-### **个人资料**
-
-| 姓 名：宁硕夫          | 政治面貌:团员                                     |
-| ---------------------- | ------------------------------------------------- |
-| 年  龄：24             | 民 族：汉                                         |
-| 性  别：男             | 手机：18001151440/18500156577                     |
-| 学 位：本科            | 邮箱：[121752308@qq.com](mailto:121752308@qq.com) |
-| 专业：计算机科学与技术 | 教育背景: 北京理工大学                            |
-
-### **项目经历**  
-1. 2017.7-2017.8 北京市计算中心：
-   实习了一个月，主要是做java后端，用的是公司自己的一个框架（基于spring，mybatis的）  
-2. 2017.9-2019.4 安擎计算机有限公司：主要参与了4个项目：  
-   - 机器学习平台（2017.11-2019.4）：项目背景是公司的一个长期的战略目标，目标是开发一套开箱即用的机器学习平台。做的是java后端，使用springboot，mysql，docker，k8s等，角色由原本的普通开发人员到后续的项目组长。项目目的是开发出一套可以让开发人员快速上手方便使用k8s的web端，通过前端提供各项功能，主要是k8s原有的功能、一套监控系统和一套存储系统，后端主要是调用linux命令，将结果返回到前端，监控主要是cpu、gpu、内存、磁盘、健康状态等信息。存储系统使用的是glusterfs。因为本项目是基于集群来做的，考虑到效率的因素，使用多线程来向各个服务器请求数据。      
-   - 人脸识别项目（2017.11-2018.2）：项目背景是基于清华的一套人脸识别sdk，做出一套“明星脸匹配系统”。使用的语言是c++做的后端，角色是普通开发人员。项目目的是开发出一套识别摄像头拍摄到的人脸和本地保存的一些明星人脸的相似度，从而获得和某人最相似的明星，显示到大屏幕上。主要工作是阅读清华sdk源码，了解各个接口功能，从摄像头获取人脸，然后调用sdk接口来和所有明星人脸做一个相似度计算，输出相似度最高的人脸，由于前端使用的是c#，使用了ice中间件。      
-   - 爬虫项目（2018.7-2018.12）：项目背景是基于其他几个项目的数据需求，一共有8套数据需求。所以使用的技术比较繁杂，用的是python，包括scrapy，requests，beautifulsoup，xpath等，角色是项目组长。核心内容是解析html标签，清洗爬取到的数据，应对网站反爬，措施有降低请求频率，使用代理ip等方式。      
-   - 地址标准化程序（2019.1-2019.3）：项目背景是做一个标准化用户输入地址的项目，主要是分词和地址匹配，需求是优化原有的地址标准化程序，使用的技术有springboot，redis等，角色是项目组长。此项目做的时候已经到了第二期，要求是基于第一期的项目进行优化，主要是识别效率和内存上的优化，在识别效率上做的工作是阅读hanlp源码，修改原有逻辑来符合客户需求。在内存上主要是将原有保存在内存中的词典数据迁移至redis数据库中，将原有使用java直接获取词典数据的方式修改为从redis获取数据。  
-3. 2019.9-至今 恒爱高科（北京）科技有限公司：主要参与了两个项目：  
-   - 懂你项目：项目是一个情绪识别项目，通过手表获得脉搏波数据，app或者微信小程序将数据传到后端处理，web端进行管理工作，后端计算出情绪结果返回数据。独立完成后端开发和运维，负责项目后端整体开发，负责项目需求到，开发设计，接口文档，负责前后端调试工作  
-   - 北京宴项目：项目是一个酒店管理项目，负责北京宴项目后端新需求开发和运维（https://www.bagewa.com/），具体网站逻辑需要账号登录。
-
-### 核心能力及特长
-1. 学习能力较好,个人喜欢算法，对算法、数据结构、编译原理、数据库、密码学、计算机网络、数电模电、计算机体系结构等有一定了解。 
-2. python：对python比较感兴趣，使用requests和scrapy做过爬虫项目，熟练使用django。
-3. java：使用springboot做过两个项目，有一定熟练度。  
-4. c/c++：c/c++有系统学习，做过一个基于清华的一套sdk做的人脸识别项目。  
-5. 其他：对linux各种命令比较熟练，对前端简单基础知识有一定了解，了解go，docker，k8s，glusterfs，redis，mysql，scrapy等使用。在部门角色由开始的普通开发人员到后续的项目组长，对项目整个流程有一定心得,具有良好的面向对象的设计思想，良好的代码规范，较强的代码和文档编写能力。
-
-### 个人爱好
-各种球类、棋类运动、poj、leecode、折纸、游戏
-
-## 联系我
-
-* GitHub：[nsf-github](https://github.com/nsf-github)
-* email：nsfnsf@foxmail.com
-* leetcode: [nsf-leecode](https://leetcode-cn.com/u/nsf/) 
-
-## 友情链接
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 
 
-## Comments
 
-{% include comments.html %}
+<div id="app" style="display: flex;flex-flow: column;margin: 20 ">
+
+ <scroll-view scroll-with-animation scroll-y="true" style="width: 100%;">
+
+  <!-- 用来获取消息体高度 -->
+
+  <view id="okk" scroll-with-animation>
+
+   <!-- 消息 -->
+
+   <view v-for="(x,i) in msgList" :key="i">
+
+​    <!-- 用户消息 头像可选加入-->
+
+​    <view v-if="x.my" style="display: flex;
+
+​        flex-direction: column;
+
+​        align-items: flex-end;">
+
+​     <view style="width: 400rpx;">
+
+​      <view style="border-radius: 35rpx;">
+
+​       <text style="word-break: break-all;">{{x.msg}}</text>
+
+​      </view>
+
+​     </view>
+
+
+
+​    </view>
+
+​    <!-- 机器人消息 -->
+
+​    <view v-if="!x.my" style="display: flex;
+
+​        flex-direction: row;
+
+​        align-items: flex-start;">
+
+
+
+​     <view style="width: 500rpx;">
+
+​      <view style="border-radius: 35rpx;background-color: #f9f9f9;">
+
+​       <text style="word-break: break-all;">{{x.msg}}</text>
+
+​      </view>
+
+​     </view>
+
+​    </view>
+
+   </view>
+
+
+
+
+
+   <view style="height: 130rpx;">
+
+
+
+   </view>
+
+  </view>
+
+
+
+ </scroll-view>
+
+
+
+ <!-- 底部导航栏 -->
+
+ <view style="position: fixed;bottom:0px;width: 100%;display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;">
+
+  <view style="font-size: 55rpx;display: flex;
+
+​    flex-direction: row;
+
+​    justify-content: space-around;
+
+​    align-items: center;width: 75%;
+
+  margin: 0;">
+
+  </view>
+
+  <view style="font-size: 55rpx;display: flex;
+
+​    flex-direction: row;
+
+​    justify-content: space-around;
+
+​    align-items: center;width: 75%;
+
+  margin: 20;">
+
+
+
+   <input v-on:keyup.enter="sendMsg" v-model="msg" type="text" style="width: 75%;
+
+​      height: 45px;
+
+​      border-radius: 50px;
+
+​      padding-left: 20px;
+
+​      margin-left: 10px;background-color: #f0f0f0;" @confirm="sendMsg" confirm-type="search"
+
+​    placeholder-class="my-neirong-sm" placeholder="描述问题,回车或者点击发送" />
+
+   <button @click="sendMsg" :disabled="msgLoad" style="height: 45px;
+
+​      width: 20%;;
+
+  color: #030303;   border-radius: 2500px;">{{sentext}}</button>
+
+  </view>
+
+ </view>
+
+ </view>
+
+</div>
+
+<script>
+
+ const { createApp } = Vue
+
+ createApp({
+
+  data () {
+
+   return {
+
+​    api: '',
+
+​    msgLoad: false,
+
+​    anData: {},
+
+​    sentext: '先输入api再发送问题',
+
+​    // sentext: '发送',
+
+
+
+​    animationData: {},
+
+​    showTow: false,
+
+​    msgList: [{
+
+​     my: false,
+
+​     msg: "你好我是openAI机器人,请问有什么问题可以帮助您?"
+
+​    }],
+
+​    msgContent: "",
+
+​    msg: ""
+
+   }
+
+  },
+
+  methods: {
+
+
+
+   entapi () {
+
+​    console.log('11');
+
+​    this.sentext = 'api检测中'
+
+​    axios.post('https://api.openai.com/v1/completions', {
+
+​     prompt: '你好呀', max_tokens: 2048, model: "text-davinci-003"
+
+​    }, {
+
+​     headers: { 'content-type': 'application/json', 'Authorization': 'Bearer ' + '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' }
+
+​    }).then(res => {
+
+​     console.log('suss', res);
+
+​     this.msgLoad = false
+
+​     this.sentext = '发送'
+
+
+
+
+
+​    }).catch(error => {
+
+​     console.log('error', error);
+
+​     console.log(error.code);
+
+​     if (error.code == 'ERR_BAD_REQUEST') {
+
+​      this.sentext = 'apikey错误，检查确认后重新输入'
+
+​      this.msgLoad = true
+
+
+
+​      return 0;
+
+​     }
+
+​    })
+
+   },
+
+   sendMsg () {
+
+
+
+​    // 消息为空不做任何操作
+
+​    if (this.msg == "") {
+
+​     return 0;
+
+​    }
+
+​    this.sentext = '请求中'
+
+​    this.msgList.push({
+
+​     "msg": this.msg,
+
+​     "my": true
+
+​    })
+
+​    console.log(this.msg);
+
+​    this.msgContent += ('YOU:' + this.msg + "\n")
+
+​    this.msgLoad = true
+
+​    // 清除消息
+
+​    this.msg = ""
+
+​    axios.post('https://api.openai.com/v1/completions', {
+
+​     prompt: this.msgContent, max_tokens: 2048, model: "text-davinci-003"
+
+​    }, {
+
+​     headers: { 'content-type': 'application/json', 'Authorization': 'Bearer ' + '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' }
+
+​    }).then(res => {
+
+​     console.log(res);
+
+​     let text = res.data.choices[0].text.replace("openai:", "").replace("openai：", "").replace(/^\n|\n$/g, "")
+
+​     console.log(text);
+
+​     this.msgList.push({
+
+​      "msg": text,
+
+​      "my": false
+
+​     })
+
+​     this.msgContent += (text + "\n")
+
+​     this.msgLoad = false
+
+​     this.sentext = '发送'
+
+​    }).catch(error => {
+
+​     console.log('error', error);
+
+​     console.log(error.code);
+
+​     this.sentext = '请求失败,重新输入问题发送'
+
+​     this.msgLoad = false
+
+​    })
+
+   },
+
+  }
+
+ }).mount('#app')
+
+</script>
