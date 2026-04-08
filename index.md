@@ -1,25 +1,17 @@
-## Portfolio
+# 个人作品集
+
+[个人简介](/md/about_me.md)
 
 ---
+## [套图](/pdf/套图.pdf)
+<img src="images/套图.png?raw=true"/>
 
-### 文章
+## [A+](/pdf/A+.pdf)
+<img src="images/A+.png?raw=true"/>
 
-[测试文章](/md/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+## [精修](/pdf/精修.pdf)
+<img src="images/精修.png?raw=true"/>
 
----
+## [设计](/pdf/设计.pdf)
+<img src="images/设计.png?raw=true"/>
 
-### 图集
-
----
-[测试图集](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### 相关链接
-
----
-[百度](http://www.baidu.com/)
-
----
