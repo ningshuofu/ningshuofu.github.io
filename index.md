@@ -15,3 +15,6 @@
 ## [设计](/pdf/设计.pdf)
 <img src="images/设计.png?raw=true"/>
 
+## [兼职作品](/pdf/兼职作品.pdf)
+<img src="images/兼职作品.jpg?raw=true"/>
+
